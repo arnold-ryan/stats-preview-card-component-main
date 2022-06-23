@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <article class="card">
+      <div class="card-body">
+        <div class="card-body-top">
+          <h2 class="card-body-title">
+            Get <span>insights</span> that help your business grow.
+          </h2>
+          <p class="card-body-paragraph">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+        </div>
+        <div class="card-body-bottom">
+          <div>
+            <p class="stat-num">10k+</p>
+            <p class="stat-name">COMPANIES</p>
+          </div>
+          <div>
+            <p class="stat-num">314</p>
+            <p class="stat-name">TEMPLATES</p>
+          </div>
+          <div>
+            <p class="stat-num">12M+</p>
+            <p class="stat-name">QUERIES</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-img">
+        <div class="card-img-box"></div>
+        <picture>
+          <source
+            media="(min-width: 900px)"
+            srcset="/images/image-header-desktop.jpg"
+          />
+          <source
+            media="(min-width: 480px)"
+            srcset="/images/image-header-mobile.jpg"
+          />
+
+          <img
+            src="/images/image-header-mobile.jpg"
+            alt="employess in an office"
+          />
+        </picture>
+      </div>
+    </article>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/arnold-ryan">Arnold Ryan</a>.
+    </div>
+  </body>
+</html>
